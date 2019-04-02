@@ -83,8 +83,6 @@ To retrieve the data that will power this app, I will be using the 'axios packag
 3. `node liri.js movie-this '<movie name here>'`
 
    * This will output the following information to your terminal/bash window:
-
-     ```
        * Title of the movie.
        * Year the movie came out.
        * IMDB Rating of the movie.
@@ -93,12 +91,11 @@ To retrieve the data that will power this app, I will be using the 'axios packag
        * Language of the movie.
        * Plot of the movie.
        * Actors in the movie.
-     ```
+
 	   
 ![Log Output](Screenshots/movie-this.png)
 
-
-   * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+     * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
      * If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
 
