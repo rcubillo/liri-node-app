@@ -75,7 +75,7 @@ To retrieve the data that will power this app, I will be using the 'axios packag
   
 ![Log Output](Screenshots/spotify-this-song.png)
      
-      * If no song is provided then your program will default to "The Sign" by Ace of Base.
+   * If no song is provided then your program will default to "The Sign" by Ace of Base.
       
 ![Log Output](Screenshots/spotify-this-song%20without%20.png)
  
