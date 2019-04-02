@@ -95,11 +95,11 @@ To retrieve the data that will power this app, I will be using the 'axios packag
 	   
 ![Log Output](Screenshots/movie-this.png)
 
-     * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+   * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
-     * If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
+   * If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
 
-     * It's on Netflix!
+   * It's on Netflix!
      
 ![Log Output](Screenshots/movie-this%20without.png)
 
