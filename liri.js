@@ -80,13 +80,13 @@ function movies() {
   // If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
   if (movieName === undefined) {
     movieName = 'Mr. Nobody';
+    console.log("If you haven't watched 'Mr. Nobody,' then you should: <http://www.imdb.com/title/tt0485947/>");
+    console.log("It's on Netflix!");
   }
   // Then run a request with axios to the OMDB API with the movie specified
   var queryUrl =
     'http://www.omdbapi.com/?t=' + movieName + '&y=&plot=short&apikey=trilogy';
 
-  // This line is just to help us debug against the actual URL.
-  console.log(queryUrl);
 
   // "Ratings":[{"Source":"Internet Movie Database","Value":"7.0/10"},{"Source":"Rotten Tomatoes","Value":"37%"}
 
