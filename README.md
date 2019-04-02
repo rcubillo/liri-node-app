@@ -3,13 +3,13 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Contributors
+## Contributors
 @rcubillo
 
-Technology
-	• Node, Api's,
+## Technology
+• Node, Api's,
 	
-About 
+## About 
 
 This app is the creation of Liri. Liri is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
@@ -25,7 +25,7 @@ To retrieve the data that will power this app, I will be using the 'axios packag
 
    * [DotEnv](https://www.npmjs.com/package/dotenv)
    
-Instructions
+## Instructions
 
 1) First thing I did in order to start working on this project was to navigate to the root of my project and I ran "npm init -y", this initialize a "package.json" for my project.The `package.json` file is required for installing third party npm packages and saving their version numbers.
 
@@ -48,10 +48,11 @@ Instructions
    * `do-what-it-says`
 
 
-Contributing Guidelines
-All contributions and suggestions are welcome! For direct contributions, please fork the repository and file a pull request.
-Contact
+## Contributing Guidelines
 
+All contributions and suggestions are welcome! For direct contributions, please fork the repository and file a pull request.
+
+## Contact
 
 Developer/Full-stack Web Software Developer
    
