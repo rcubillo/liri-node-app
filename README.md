@@ -25,9 +25,9 @@ To retrieve the data that will power this app, I will be using the 'axios packag
    
 ## Instructions
 
-1) First thing I did in order to start working on this project was to navigate to the root of my project and I ran "npm init -y", this initialize a "package.json" for my project.The `package.json` file is required for installing third party npm packages and saving their version numbers.
+1) First thing I did in order to start working on this project was to navigate to the root of my project and I ran "npm init -y", this initialize a "package.json" for my project. The `package.json` file is required for installing third party npm packages and saving their version numbers.
 
-2) I created a .gitignore file to tell git not to track some files that contains some important information like api keys.
+2) I created a .gitignore file to tell git not to track some files that contains some important information like api keys and the node modules.
 
 3) I created a named keys.js that will export the spotify id and the spotify secret to my main application file (liri.js).
 
