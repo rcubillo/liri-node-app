@@ -17,9 +17,7 @@ To retrieve the data that will power this app, I will be using the 'axios packag
 
    * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
 
-   * [Axios](https://www.npmjs.com/package/axios)
-
-     * I will use Axios to grab data from the [OMDB API](http://www.omdbapi.com) and the [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
+   * [Axios](https://www.npmjs.com/package/axios) --> I will use Axios to grab data from the [OMDB API](http://www.omdbapi.com) and the [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
 
    * [Moment](https://www.npmjs.com/package/moment)
 
