@@ -29,11 +29,11 @@ To retrieve the data that will power this app, I will be using the 'axios packag
 
 2) I created a .gitignore file to tell git not to track some files that contains some important information like api keys and the node modules.
 
-3) I created a named keys.js that will export the spotify id and the spotify secret to my main application file (liri.js).
+3) I created a file named keys.js that will export the Spotify Id and the Spotify Secret to my main application file (liri.js).
 
-4) I created a file name .env. This file will contain the the actual api keys for spotify.This file will be used by the `dotenv` package to set what are known as environment variables to the global `process.env` object in node. These are values that are meant to be specific to the computer that node is running on, and since we are gitignoring this file, they won't be pushed to github.
+4) I created a file name .env. This file will contain the actual api keys for spotify.This file will be used by the `dotenv` package to set what are known as environment variables to the global `process.env` object in node. These are values that are meant to be specific to the computer that node is running on, and since we are gitignoring this file, they won't be pushed to github.
 
-5) There is also a file called random.txt. This file will contain  * spotify-this-song,"I Want it That Way"
+5) There is also a file called random.txt. This file will contain: `spotify-this-song,"I Want it That Way"`
 
 6) Liri will take in one of the following commands:
 
