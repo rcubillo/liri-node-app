@@ -32,7 +32,12 @@ switch (options) {
 }
 
 function spotifiando() {
-  spotify.search({ type: 'track', query: song }, function(err, data) {
+  // Catch empty input
+  if (!song) {
+    song = "The Sign Ace of Base";
+  }
+
+  spotify.search({ type: 'track', query: song }, function (err, data) {
     console.log('------------- Song Analysis -------------');
     if (err) {
       return console.log('Error occurred: ' + err);
