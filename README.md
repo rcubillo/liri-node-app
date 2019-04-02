@@ -58,7 +58,8 @@ To retrieve the data that will power this app, I will be using the 'axios packag
 
      * Date of the Event (use moment to format this as "MM/DD/YYYY")
      
-  [concert-this screenshot]    
+![Log Output](Screenshots/Concert-this.png)
+     
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
@@ -72,11 +73,11 @@ To retrieve the data that will power this app, I will be using the 'axios packag
 
      * The album that the song is from
   
-  [spotify-this-song screenshot
+![Log Output](Screenshots/spotify-this-song.png)
      
       * If no song is provided then your program will default to "The Sign" by Ace of Base.
       
-   [spotify-this-song without screenshot
+![Log Output](Screenshots/spotify-this-song%20without%20.png)
  
 
 3. `node liri.js movie-this '<movie name here>'`
@@ -93,8 +94,8 @@ To retrieve the data that will power this app, I will be using the 'axios packag
        * Plot of the movie.
        * Actors in the movie.
      ```
-	
-[movie-this screenshot ]
+	   
+![Log Output](Screenshots/movie-this.png)
 
 
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
@@ -102,8 +103,8 @@ To retrieve the data that will power this app, I will be using the 'axios packag
      * If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
 
      * It's on Netflix!
-
-[movie-this without screenshot ]
+     
+![Log Output](Screenshots/movie-this%20without.png)
 
 
 4. `node liri.js do-what-it-says`
@@ -115,7 +116,7 @@ To retrieve the data that will power this app, I will be using the 'axios packag
      * Edit the text in random.txt to test out the feature for movie-this and concert-this.
      
      
- [Do what it says screenshot]
+![Log Output](Screenshots/Do%20what%20it%20says.png)
 
 
 
