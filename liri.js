@@ -16,7 +16,7 @@ var song = process.argv[3];
 
 switch (options) {
   case 'spotify-this-song':
-    spotifiando();
+    spo();
     break;
   case 'movie-this':
     movies();
@@ -28,10 +28,12 @@ switch (options) {
     listen();
     break;
   default:
-  // code block
+    console.log("Please enter a valid option, such as (spotify-this-song + song)");
+    console.log("(spotify-this-song + song), (movie-this + movie), or (do-what-it-says)");
+    break;
 }
 
-function spotifiando() {
+function spo() {
   // Catch empty input
   if (!song) {
     song = "The Sign Ace of Base";
@@ -66,7 +68,6 @@ function spotifiando() {
         2
       )
     );
-    console.log('------------- Song Analysis -------------');
   });
 }
 
@@ -100,7 +101,6 @@ function movies() {
     console.log('Languaje of the movie: ' + response.data.Language);
     console.log('Plot of the movie: ' + response.data.Plot);
     console.log('Actors in the movie: ' + response.data.Actors);
-    console.log('--------------------------------');
   });
 }
 
@@ -126,7 +126,7 @@ function concerts() {
         console.log(
           'Date of the Event: ' + moment(response.data[i].datetime).format('L')
         );
-        console.log('-------------------');
+        console.log("-----------")
       }
     });
 }
@@ -146,7 +146,7 @@ fs.readFile("random.txt", "utf8", function(error, data) {
   var dataArr = data.split(",");
         song = dataArr[1];
 
-         spotifiando(song);
+         spo(song);
 
   // We will then re-display the content as an array for later use.
   // console.log(dataArr);
