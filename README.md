@@ -7,7 +7,9 @@
 @rcubillo
 
 ## Technology
-• Node, Api's,
+* NodeJS
+* APIs
+* NPM 
 	
 ## About 
 
