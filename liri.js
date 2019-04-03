@@ -28,7 +28,7 @@ switch (options) {
     listen();
     break;
   default:
-    console.log("Please enter a valid option, such as (spotify-this-song + song)");
+    console.log("Please enter a valid option, such as: (concert-this + artist)");
     console.log("(spotify-this-song + song), (movie-this + movie), or (do-what-it-says)");
     break;
 }
