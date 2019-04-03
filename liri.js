@@ -2,7 +2,7 @@ require('dotenv').config();
 var Spotify = require('node-spotify-api');
 var keys = require('./keys.js');
 var spotify = new Spotify(keys.spotify);
-//Including axion npm package
+//Including axios npm package
 var axios = require('axios');
 //Including the moment npm package
 var moment = require('moment');
@@ -46,7 +46,7 @@ function spo() {
     }
     for (var i = 0; i < data.tracks.items[0].artists.length; i++) {
       if (i === 0) {
-        console.log('Artist(s):    ' + data.tracks.items[0].artists[i].name);
+        console.log('Artist(s): ' + data.tracks.items[0].artists[i].name);
       } else {
         console.log('              ' + data.tracks.items[0].artists[i].name);
       }
@@ -56,14 +56,13 @@ function spo() {
     );
     console.log(
       JSON.stringify(
-        'Preview Link: ' + data.tracks.items[0].preview_url,
+        "Preview Link:        " + data.tracks.items[0].preview_url,
         null,
         2
       )
     );
     console.log(
-      JSON.stringify(
-        'Album:        ' + data.tracks.items[0].album.name,
+      JSON.stringify("Album:        " + data.tracks.items[0].album.name,
         null,
         2
       )
@@ -132,9 +131,6 @@ function concerts() {
 }
 
 function listen(){
-// This block of code will read from the "movies.txt" file.
-// It's important to include the "utf8" parameter or the code will provide stream data (garbage)
-// The code will store the contents of the reading inside the variable "data"
 fs.readFile("random.txt", "utf8", function(error, data) {
 
   // If the code experiences any errors it will log the error to the console.
@@ -147,8 +143,5 @@ fs.readFile("random.txt", "utf8", function(error, data) {
         song = dataArr[1];
 
          spo(song);
-
-  // We will then re-display the content as an array for later use.
-  // console.log(dataArr);
 });
 }
